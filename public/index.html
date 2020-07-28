@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.0.1">
+  <title>MyProfile</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <!-- Favicons -->
+  <meta name="theme-color" content="#563d7c">
+
+</head>
+
+<body>
+  <nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#" aria-label="Product">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
+          viewBox="0 0 24 24" focusable="false">
+          <title>Product</title>
+          <circle cx="12" cy="12" r="10" />
+          <path
+            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+        </svg>
+      </a>
+      <a class="py-2 d-none d-md-inline-block main" href="#contactdata">Contact</a>
+      <a class="py-2 d-none d-md-inline-block main" href="#imagesdata">Image</a>
+      <a class="py-2 d-none d-md-inline-block main" href="#aboutdata">About me</a>
+
+
+
+    </div>
+  </nav>
+
+
+
+
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-0 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">MY PROFILE</h1>
+      <p class="lead font-weight-normal">On the day I went to see the natural scenery in the rice fields.</p>
+      <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    <div><img id="img2" src="./image/1.jpg" alt=""></div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">My ability</h2>
+        <p class="lead">
+        <h2>I have a dancing ability.</h2>
+        </p>
+        <p><img style="border-radius: 40px; height: 700px;" src="./image/2.jpg"></p>
+      </div>
+
+
+
+    </div>
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+
+      </div>
+      <div class="bg-dark shadow-sm mx-auto main" id="contactdata" style="width: 100%; height:100%; border-radius: 21px 21px 0 0;">
+        <h1 style="color: rgb(37, 152, 139);">About me</h1>
+        <h3 style="color: rgb(252, 115, 10)">My name is Sri Buokaew</h3>
+        <h3 style="color: rgb(252, 115, 10);"> my nickname is Fonpraprum</h3>
+        <h3 style="color:  rgb(252, 115, 10);"> I was born on July 22, 1999.</h3>
+        <h3 style="color:  rgb(252, 115, 10);"> Studied at Mae Jo University</h3>
+        <p>
+        <h3 style="color: rgb(252, 115, 10);">Facul ty of Science Computer science</h4>
+          </p>
+          <div>
+            <p><img style="border-radius: 30px;" src="./image/6.jpg" alt=""></p>
+
+            <img style="height: 250px; width: 315px; border-radius: 30px;" src="./image/7.jpg" alt="University">
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    </div>
+  </div>
+
+  <footer class="container py-5">
+    <div class="row">
+      <!DOCTYPE html>
+      <html>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+        body {
+          font-family: Arial;
+          margin: 0;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        img {
+          vertical-align: middle;
+        }
+
+        /* Position the image container (needed to position the left and right arrows) */
+        .container {
+          position: relative;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+          display: none;
+        }
+
+        /* Add a pointer when hovering over the thumbnail images */
+        .cursor {
+          cursor: pointer;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+          cursor: pointer;
+          position: absolute;
+          top: 40%;
+          width: auto;
+          padding: 16px;
+          margin-top: -50px;
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+          -webkit-user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+          background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+
+        /* Container for image text */
+        .caption-container {
+          text-align: center;
+          font-size: 30px;
+          padding: 2px 16px;
+          color: rgb(3, 103, 15);
+        }
+
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        /* Six columns side by side */
+        .column {
+          float: left;
+          width: 16.66%;
+        }
+
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+          opacity: 0.6;
+        }
+
+        .active,
+        .demo:hover {
+          opacity: 1;
+        }
+      </style>
+
+      <head >
+        <link rel="stylesheet" href="styles.css">
+
+      <body>
+
+        <h1 class="main" id="imagesdata" style="color: rgb(12, 98, 89); text-align:center">Slideshow Gallery</h1>
+
+        <div class="container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="./image/5.jpg" style="border-radius:30px" width="100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="./image/4.jpg" style="border-radius:30px" width="100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="./image/3.jpg" style="border-radius:30px" width="100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="./image/12.jpg" style="border-radius:30px" width="100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="./image/20.jpg" style="border-radius:30px" width="100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="./image/19.jpg" style="border-radius:30px" width="100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="./image/5.jpg" style="width:100%" onclick="currentSlide(1)"
+                alt="Doi Pha Mi">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./image/4.jpg" style="width:100%" onclick="currentSlide(2)"
+                alt="Doi Pha Mi, Doi village">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./image/3.jpg" style="width:100%" onclick="currentSlide(3)"
+                alt="Pha Pa procession exhibition">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./image/12.jpg" style="width:100%" onclick="currentSlide(4)"
+                alt="Cafe with best friends.">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./image/20.jpg" style="width:100%" onclick="currentSlide(5)"
+                alt="Smile in the morning sun.">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="./image/19.jpg" style="width:100%" onclick="currentSlide(6)"
+                alt="Homeopathy">
+            </div>
+          </div>
+        </div>
+
+        <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+          }
+        </script>
+
+      </body>
+
+      </html>
+
+
+
+
+
+
+
+
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+          viewBox="0 0 24 24" focusable="false">
+          <title>Product</title>
+          <circle cx="12" cy="12" r="10" />
+          <path
+            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+        </svg>
+        <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+      </div>
+
+
+
+
+
+
+      <div class="col-6 col-md">
+        <h5 class="main" id="aboutdata" >Facebook</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="https://www.facebook.com/Sri.buokaew">https://www.facebook.com/Sri.buokaew</a>
+          </li>
+          <h5>fhone</h5>
+          <li><a class="text-muted" href="#">08900000.01</a></li>
+          <h5>Locations</h5>
+          <li><a class="text-muted"
+              href="https://www.google.com/maps/d/viewer?msa=0&hl=th&ie=UTF8&t=h&vpsrc=6&ll=18.895540000000004%2C99.01441100000001&spn=0.000888%2C0.00114&z=19&source=embed&showlabs=1&mid=10atewTmy5YY9QUogHH0XQUrBggI">MEAJO</a>
+          </li>
+          <li><a class="text-muted" href="https://www.wongnai.com/listings/dont-miss-cool-cafe-in-cm">Last time</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-6 col-md">
+        <h5>Suggested website</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="https://www.newmovie-hd.org/">Movie</a></li>
+          <li><a class="text-muted" href="https://www.mgsub.com/">Catoon</a></li>
+          <li><a class="text-muted" href="https://www.sarakadee.com/">Gospel</a></li>
+          <li><a class="text-muted" href="https://www.ebooks.in.th/">library</a></li>
+          <li><a class="text-muted" href="https://www.youtube.com/?gl=TH">Youtube</a></li>
+          <li><a class="text-muted" href="https://www.google.co.th/">Google</a></li>
+          <li><a class="text-muted" href="https://www.youtube.com/watch?v=EbYfcP5mOA0">Cute corner</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+</html>
+<style></style>
